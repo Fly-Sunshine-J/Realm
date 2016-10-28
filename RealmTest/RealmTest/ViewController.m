@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"%@", [RLMRealm defaultRealm].configuration.fileURL);
-    NSLog(@"制造冲突");
+    NSLog(@"制造冲");
 }
 
 
