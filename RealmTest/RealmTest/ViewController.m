@@ -25,6 +25,7 @@
 
 
 - (IBAction)add:(UIButton *)sender {
+    NSLog(@"制造冲突");
     NSLog(@"save start");
     for (int i = 0; i < 10000; i++) {
         Student *stu = [[Student alloc] initWithValue:@{@"num": @(i), @"name": [NSString stringWithFormat:@"张三%d", i], @"age":@20}];
