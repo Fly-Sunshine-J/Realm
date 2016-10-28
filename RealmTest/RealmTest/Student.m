@@ -17,6 +17,7 @@
 
 //非空字段
 + (NSArray<NSString *> *)requiredProperties {
+    NSLog(@"SVN测试");
     return @[@"name"];
 }
 
