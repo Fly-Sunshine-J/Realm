@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"%@", [RLMRealm defaultRealm].configuration.fileURL);
+    NSLog(@"GIT 测试");
 }
 
 
